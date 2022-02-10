@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <title>Booki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css" />
+
+</head>
+<style>
+    nav,
+    main,
+    .accommodations-and-most-popular {
+        flex-wrap: wrap;
+    }
+
+
+</style>
+
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html" id="logo"><img src="images/logo/Booki.png" alt="Booki" class="logo"></a>
+            </div>
+            <div class="navbarlink">
+                <ul>
+                    <li><a href="accomodation.html" data-active="true">Hébergements</a></li>
+                    <li><a href="activities.html" data-active="false">Activités</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Titre -->
+        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+        <div class="undertitle">
+            <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <!-- Barre de recherche -->
+
+        <div class="searchbox">
+            <div><i class="fas fa-map-marker-alt icon-searchboxx"></i></div>
+            <form>
+                <div><input class="search-text padding-search" type="text" name="text" value="Marseille, France"></div>
+            </form>
+            <div><input class="submit" type="submit" name="submit" value="Rechercher"></div>
+        </div>
+    </header>
+    <!-- Main -->
+    <main>
+        <div class="filters-title">
+            <h3>Filtres</h3>
+        </div>
+        <div class="filters-boxs">
+            <i class="fas fa-money-bill-wave filters-icons"></i>
+            <div class="filters-text">Economique</div>
+        </div>
+        <div class="filters-boxs">
+            <i class="fas fa-child filters-icons"></i>
+            <div class="filters-text">Familial</div>
+        </div>
+        <div class="filters-boxs">
+            <i class="fas fa-heart filters-icons"></i>
+            <div class="filters-text">Romantique</div>
+        </div>
+        <div class="filters-boxs">
+            <i class="fas fa-dog filters-icons"></i>
+            <div class="filters-text">Animaux autorisés</div>
+        </div>
+    </main>
+    <!-- Info -->
+    <div class="info">
+        <i class="fas fa-info info-icon"></i>
+        <div class="info-text">
+            <p>Plus de 500 logements sont disponibles dans cette villes</p>
+        </div>
+    </div>
+
+    <style>
+        .imageCarte,.cards-image{
+             width: 100%;
+         object-fit: cover;
+         }
+         .titre{
+             text-align: center;
+             width: 100%;
+         }
+     </style>
+    <!-- Section1 -->
+    <section class="accommodations-and-most-popular">
+        <div class="accommodations">
+            <h2 class="title-accommodations">Hébergements à Marseille</h2>
+            <div class="first-line-cards">
+            
+                <div class="card">
+
+                    <div class="imageCarte">
+                        <img class="cards-images"
+                        src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+                        alt="Auberge de la Cannebière" />
+                    </div>
+
+                    <div class="titre">
+                        <h4 class="hostel-name">Auberge de la Cannebière</h4>
+                    </div>
+                        <div class="recit">
+                            <p class="night-price">Nuit à partir de <span class="price">25€</span></p>
+
+                        </div>
+                        <div class="card-stars">
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                        </div>
+                   
+                </div>
+                <div class="card">
+
+                    <div class="imageCarte">
+                        <img class="cards-images"
+                        src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+                        alt="Hôtel du port" />
+                    </div>
+
+                    <div class="titre">
+                        <h4 class="hostel-name">Hôtel du port</h4>
+                    </div>
+                        <div class="recit">
+                            <p class="night-price">Nuit à partir de <span class="price">52€</span></p>
+
+                        </div>
+                        <div class="card-stars">
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                        </div>
+                   
+                </div>
+                <div class="card">
+
+                    <div class="imageCarte">
+                        <img class="cards-images"
+                        src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                        alt="Hôtel Les mouettes" />
+                    </div>
+
+                    <div class="titre">
+                        <h4 class="hostel-name">Hôtel Les mouettes</h4>
+                    </div>
+                        <div class="recit">
+                            <p class="night-price">Nuit à partir de <span class="price">76€</span></p>
+
+                        </div>
+                        <div class="card-stars">
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                        </div>
+                   
+                </div> 
+            </div>
+            <div class="second-line-cards">
+                
+             
+                <div class="card">
+
+                    <div class="imageCarte">
+                        <img class="cards-images"
+                        src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+                        alt="Hôtel de la mer" />
+                    </div>
+
+                    <div class="titre">
+                        <h4 class="hostel-name">Hôtel de la mer</h4>
+                    </div>
+                        <div class="recit">
+                            <p class="night-price">Nuit à partir de <span class="price">46€</span></p>
+
+                        </div>
+                        <div class="card-stars">
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                        </div>
+                   
+                </div>
+                <div class="card">
+
+                    <div class="imageCarte">
+                        <img class="cards-images"
+                        src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                        alt="Auberge Le Panier" />
+                    </div>
+
+                    <div class="titre">
+                        <h4 class="hostel-name">Auberge Le Panier</h4>
+                    </div>
+                        <div class="recit">
+                            <p class="night-price">Nuit à partir de <span class="price">26€</span></p>
+
+                        </div>
+                        <div class="card-stars">
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                        </div>
+                   
+                </div>
+                <div class="card">
+
+                    <div class="imageCarte">
+                        <img class="cards-images"
+                        src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+                        alt="Auberge Le Panier" />
+                    </div>
+
+                    <div class="titre">
+                        <h4 class="hostel-name">Auberge Le Panier</h4>
+                    </div>
+                        <div class="recit">
+                            <p class="night-price">Nuit à partir de <span class="price">26€</span></p>
+
+                        </div>
+                        <div class="card-stars">
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                            <i class="fas fa-star full-star"></i>
+                        </div>
+                   
+                </div>
+            </div>
+        </div>
+        <div class="most-popular">
+            <h2 class="title-most-popular">Les plus populaires</h2>
+            <div class="most-popular-cards">
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+
+</body>
+
+</html>
+<!--git test-->
